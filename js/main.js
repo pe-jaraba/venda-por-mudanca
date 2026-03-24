@@ -247,7 +247,7 @@ const items = [
     condition: "Muito bom",
     description: "Aquecedor Xiaomi Mi Smart Space heater S. 1 ano de uso.",
     originalPrice: 120,
-    status: "disponivel",
+    status: "reservado",
     availableFrom: null,
     thumbnail: "img/calefactor_1_400_300.jpg",
     images: [
@@ -263,7 +263,7 @@ const items = [
     condition: "Muito bom",
     description: "Desumidficador Rowenta DH4236, filtro novo.",
     originalPrice: 300,
-    status: "disponivel",
+    status: "reservado",
     availableFrom: null,
     thumbnail: "img/deshumificador_1_400_300.jpg",
     images: [
