@@ -25,7 +25,7 @@ const items = [
     condition: "Muito bom",
     description: "TV Hisense 55A6N LED 55'",
     originalPrice: 450,
-    status: "disponivel",
+    status: "reservado",
     availableFrom: null,
     thumbnail: "img/tele_1_400_300.jpg",
     images: [
