@@ -90,7 +90,7 @@ const items = [
     condition: null,
     description: "",
     originalPrice: null,
-    status: "disponivel",
+    status: "reservado",
     availableFrom: null,
     thumbnail: "img/lampara_1_400_300.jpg",
     images: [
@@ -105,7 +105,7 @@ const items = [
     condition: null,
     description: "",
     originalPrice: null,
-    status: "disponivel",
+    status: "reservado",
     availableFrom: null,
     thumbnail: "img/lampara_techo_1_400_300.jpg",
     images: [
@@ -120,7 +120,7 @@ const items = [
     condition: null,
     description: "",
     originalPrice: null,
-    status: "disponivel",
+    status: "reservado",
     availableFrom: null,
     thumbnail: "img/espejo_1_400_300.jpg",
     images: [
@@ -152,7 +152,7 @@ const items = [
     condition: "Muito bom",
     description: "",
     originalPrice: null,
-    status: "disponivel",
+    status: "reservado",
     availableFrom: null,
     thumbnail: "img/nochero_1_400_300.jpg",
     images: [
@@ -214,7 +214,7 @@ const items = [
     condition: "Muito bom",
     description: "Cadeira de secretária IKEA Millberget",
     originalPrice: 100,
-    status: "disponivel",
+    status: "reservado",
     availableFrom: null,
     thumbnail: "img/silla_escritorio_2_1200_800.jpg",
     images: [
