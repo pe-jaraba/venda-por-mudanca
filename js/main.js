@@ -42,7 +42,7 @@ const items = [
     condition: "Muito bom",
     description: "",
     originalPrice: null,
-    status: "disponivel",
+    status: "reservado",
     availableFrom: null,
     thumbnail: "img/mesa_sala_1_400_300.jpg",
     images: [
@@ -167,7 +167,7 @@ const items = [
     condition: "Muito bom",
     description: "Frigorífico Bosch KGN36NWEA 186x60",
     originalPrice: 740,
-    status: "disponivel",
+    status: "reservado",
     availableFrom: "2026-05-01",
     thumbnail: "img/nevera_1_400_300.jpg",
     images: [
