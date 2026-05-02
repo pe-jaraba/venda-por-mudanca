@@ -5,7 +5,7 @@ const items = [
     id: "abanico",
     name: "Ventoinha",
     category: "sala",
-    price: 30,
+    price: 25,
     condition: "Muito bom",
     description: "Ventoinha potente de 3 velocidades, metálica 50Hz-120W",
     originalPrice: null,
