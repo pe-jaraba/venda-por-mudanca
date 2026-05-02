@@ -2,6 +2,108 @@ const WHATSAPP_NUMBER = "351910898481";
 
 const items = [
   {
+    id: "abanico",
+    name: "Ventoinha",
+    category: "sala",
+    price: 30,
+    condition: "Muito bom",
+    description: "Ventoinha potente de 3 velocidades, metálica 50Hz-120W",
+    originalPrice: null,
+    status: "disponivel",
+    availableFrom: null,
+    thumbnail: "img/abanico_1_400_300.jpg",
+    images: [
+      { thumb: "img/abanico_1_400_300.jpg", full: "img/abanico_1_1200_800.jpg" },
+      { thumb: "img/abanico_2_400_300.jpg", full: "img/abanico_2_1200_800.jpg" },
+      { thumb: "img/abanico_3_400_300.jpg", full: "img/abanico_3_1200_800.jpg" }
+    ],
+  },
+  {
+    id: "canasta",
+    name: "Cesta",
+    category: "sala",
+    price: 5,
+    condition: "Muito bom",
+    description: "Cesta metálica ideal para frutas.",
+    originalPrice: null,
+    status: "disponivel",
+    availableFrom: null,
+    thumbnail: "img/canasta_1_400_300.jpg",
+    images: [
+      { thumb: "img/canasta_1_400_300.jpg", full: "img/canasta_1_1200_800.jpg" },
+      { thumb: "img/canasta_2_400_300.jpg", full: "img/canasta_2_1200_800.jpg" },
+    ],
+  },
+  {
+    id: "platos",
+    name: "Pratos",
+    category: "cozinha",
+    price: 20,
+    condition: "Muito bom",
+    description: "Conjunto de pratos de cerâmica.",
+    originalPrice: null,
+    status: "disponivel",
+    availableFrom: null,
+    thumbnail: "img/platos_1_400_300.jpg",
+    images: [
+      { thumb: "img/platos_1_400_300.jpg", full: "img/platos_1_1200_800.jpg" },
+      { thumb: "img/platos_2_400_300.jpg", full: "img/platos_2_1200_800.jpg" },
+      { thumb: "img/platos_3_400_300.jpg", full: "img/platos_3_1200_800.jpg" },
+      { thumb: "img/platos_4_400_300.jpg", full: "img/platos_4_1200_800.jpg" },
+    ],
+  },
+  {
+    id: "olla",
+    name: "Panela holandesa",
+    category: "cozinha",
+    price: 12,
+    condition: "Bom",
+    description: "Panela holandesa de ferro fundido.",
+    originalPrice: null,
+    status: "disponivel",
+    availableFrom: null,
+    thumbnail: "img/olla_1_400_300.jpg",
+    images: [
+      { thumb: "img/olla_1_400_300.jpg", full: "img/olla_1_1200_800.jpg" },
+      { thumb: "img/olla_2_400_300.jpg", full: "img/olla_2_1200_800.jpg" },
+      { thumb: "img/olla_3_400_300.jpg", full: "img/olla_3_1200_800.jpg" }
+    ],
+  },
+  {
+    id: "frutero",
+    name: "Fruteira",
+    category: "cozinha",
+    price: 3,
+    condition: "Muito bom",
+    description: "Fruteira ideal para frutas ou pão.",
+    originalPrice: null,
+    status: "disponivel",
+    availableFrom: null,
+    thumbnail: "img/frutero_1_400_300.jpg",
+    images: [
+      { thumb: "img/frutero_1_400_300.jpg", full: "img/frutero_1_1200_800.jpg" },
+      { thumb: "img/frutero_2_400_300.jpg", full: "img/frutero_2_1200_800.jpg" },
+      { thumb: "img/frutero_3_400_300.jpg", full: "img/frutero_3_1200_800.jpg" }
+    ],
+  },
+  {
+    id: "cuchillos",
+    name: "Conjunto de Facas",
+    category: "cozinha",
+    price: 7,
+    condition: "Bom",
+    description: "Conjunto de facas de cozinha como suporte magnético.",
+    originalPrice: null,
+    status: "disponivel",
+    availableFrom: "2026-05-15",
+    thumbnail: "img/cuchillos_1_400_300.jpg",
+    images: [
+      { thumb: "img/cuchillos_1_400_300.jpg", full: "img/cuchillos_1_1200_800.jpg" },
+      { thumb: "img/cuchillos_2_400_300.jpg", full: "img/cuchillos_2_400_300.jpg" },
+      { thumb: "img/cuchillos_3_400_300.jpg", full: "img/cuchillos_3_400_300.jpg" }
+    ],
+  },
+  {
     id: "sofa",
     name: "Sofá",
     category: "sala",
@@ -71,7 +173,7 @@ const items = [
     id: "tapete",
     name: "Tapete",
     category: "sala",
-    price: 35,
+    price: 30,
     condition: "Bom",
     description: "Tapete IKEA",
     originalPrice: 80,
@@ -90,7 +192,7 @@ const items = [
     condition: null,
     description: "",
     originalPrice: null,
-    status: "reservado",
+    status: "vendido",
     availableFrom: null,
     thumbnail: "img/lampara_1_400_300.jpg",
     images: [
@@ -105,7 +207,7 @@ const items = [
     condition: null,
     description: "",
     originalPrice: null,
-    status: "reservado",
+    status: "vendido",
     availableFrom: null,
     thumbnail: "img/lampara_techo_1_400_300.jpg",
     images: [
@@ -120,7 +222,7 @@ const items = [
     condition: null,
     description: "",
     originalPrice: null,
-    status: "reservado",
+    status: "vendido",
     availableFrom: null,
     thumbnail: "img/espejo_1_400_300.jpg",
     images: [
@@ -167,7 +269,7 @@ const items = [
     condition: "Muito bom",
     description: "Frigorífico Bosch KGN36NWEA 186x60",
     originalPrice: 740,
-    status: "reservado",
+    status: "vendido",
     availableFrom: "2026-05-01",
     thumbnail: "img/nevera_1_400_300.jpg",
     images: [
@@ -183,7 +285,7 @@ const items = [
     condition: "Muito bom",
     description: "Inclui duas cadeiras.",
     originalPrice: null,
-    status: "disponivel",
+    status: "vendida",
     availableFrom: null,
     thumbnail: "img/mesa_cocina_1_400_300.jpg",
     images: [
@@ -198,7 +300,7 @@ const items = [
     condition: "Muito bom",
     description: "Secretária preta IKEA Utelspelare",
     originalPrice: 170,
-    status: "disponivel",
+    status: "vendida",
     availableFrom: null,
     thumbnail: "img/escritorio_1_400_300.jpg",
     images: [
@@ -231,7 +333,7 @@ const items = [
     condition: "Excelente",
     description: "Aquecedor Xiaomi Mi Smart Space heater S. 5 Meses de uso.",
     originalPrice: 120,
-    status: "disponivel",
+    status: "vendido",
     availableFrom: null,
     thumbnail: "img/calefactor_1_400_300.jpg",
     images: [
@@ -318,7 +420,7 @@ function renderItems(category) {
       (item) => `
     <article class="item-card" data-id="${item.id}" data-status="${item.status}" tabindex="0" role="button" aria-label="Ver detalhes de ${item.name}">
       <div class="card-image">
-        <img src="${item.thumbnail}" alt="${item.name}" loading="lazy" width="400" height="300">
+        <img src="${item.thumbnail}" alt="${item.name}" loading="lazy" width="300" height="400">
         ${item.images.length > 1 ? `<span class="image-count">${item.images.length} fotos</span>` : ""}
       </div>
       <div class="card-body">
